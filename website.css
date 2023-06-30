@@ -73,16 +73,17 @@ header a:hover{
 
 .imgbox{
     width: 400px;
-    height: 300px;
+    height: 500px;
     background-color: blue;
     margin: 10px;
     transition: 0.5s ease-in-out;
 }
 
 .about{
-    height: 500px;
+    height: 400px;
     width: 100%;
-    background-color: blueviolet;
+    
+    
 }
 
 .about h4{
@@ -97,6 +98,60 @@ header a:hover{
     transform: scale(1.1);
 
 }
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.badgs{
+    height: 300px;
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.badg{
+    width: 400px;
+    height: 80px;
+    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+p{
+    font-size: 30px;
+}
+
+.Contact{
+
+    height: 100px;
+    background-color: rgba(139, 137, 137, 0.878);
+    text-align: center;
+}
+
+.icons{
+
+   
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+i{
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+
+
 
 
 
@@ -132,4 +187,17 @@ header a:hover{
     main h1{
         font-size: 30px;
     }
+}
+
+
+@media(max-width:809px){
+
+ .about{
+
+    height: 600px;
+       
+    
+ }
+
+
 }
