@@ -9,7 +9,7 @@ body{
 
 
 main{
-    background-image: url("pexels-rodion-kutsaiev-16736610.jpg");
+    background-image: url("camaraimg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ header{
     top: 20px;
     width: 100%;
     text-align: center;
-    position: fixed;
+    
 }
 
 header a{
@@ -127,12 +127,13 @@ header a:hover{
 }
 p{
     font-size: 30px;
+    
 }
 
 .Contact{
 
     height: 100px;
-    background-color: rgba(139, 137, 137, 0.878);
+    background-color: rgba(91, 85, 85, 0.878);
     text-align: center;
 }
 
@@ -147,6 +148,13 @@ p{
 i{
     font-size: 25px;
     margin: 5px;
+}
+
+.icon{
+    color: white;
+}
+h5{
+    color: white;
 }
 
 
